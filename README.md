@@ -19,3 +19,5 @@ testapp_port = 9292
 yc compute instance create    --name reddit-app-app    --hostname reddit-app-app    --memory=4    --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=10GB    --network-interface subnet-name=default-ru-central1-c,nat-ip-version=ipv4    --metadata-from-file='user-data=startup.yaml'    --metadata serial-port-enable=1
 
 Параметризирован созданый шаблон, добавлен гит_игнор файл для файла переменных
+
+Созданы и параметрезированны файлы tf для развертки ресурса виртуальной машины и деплоя приложения с помощью terraform
