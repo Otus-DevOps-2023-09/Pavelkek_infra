@@ -1,0 +1,8 @@
+cloud_id                 = "b1g16eia6iupjr8b1imn"
+folder_id                = "b1gg0iaqquc2beojnvjj"
+zone                     = "ru-central1-a"
+image_id                 = "fd870htn9kvbkptusc9l"
+public_key_path          = "~/.ssh/id_rsa.pub"
+private_key_path         = "~/.ssh/id_rsa"
+subnet_id                = "e9bfqm2vcmujfd5nq075"
+service_account_key_file = "/home/psamotaev/Pass/key.json"
